@@ -1,6 +1,6 @@
 from joblib import dump, load
 import numpy as np
-model,my_pipeline = load('Dragon.joblib')
+model,my_pipeline = load('Property.joblib')
 a=int(input("Enter the CRIM: "))
 b=int(input("Enter the ZN: "))
 c=int(input("Enter the INDUS: "))
